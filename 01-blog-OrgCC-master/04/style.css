@@ -9,9 +9,11 @@ main {
     background-color: rgba(80,80,80,0.2);
     min-height: 100vh;
     display: grid;
-    grid-template-areas: "nav nav nav"
+    grid-template-areas: 
+                         "nav nav nav"
                          "side art aside"
                          "side art aside";
+    align-items: flex-start;
     grid-template-columns: (10fr 40fr 10fr);
     grid-template-rows: (10fr 40fr);
     grid-gap: 

@@ -13,7 +13,7 @@ main {
                          "side art aside"
                          "side art aside";
     grid-template-columns: 10fr 40fr 10fr;
-    grid-template-rows: 10fr 40fr;
+    grid-template-rows: 10fr 20fr 20fr;
     grid-gap: 
 }
 

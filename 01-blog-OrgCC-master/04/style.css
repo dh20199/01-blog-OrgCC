@@ -37,7 +37,7 @@ section.sidebar {
     background-color: rgba(150, 112, 36, 0.3);
     grid-area: side;
     display: flex; 
-    flex-direction: :horizontal
+    flex-direction: horizontal;
     justify-content:            /*these last two are optional*/
     align-items:
 }
@@ -80,28 +80,28 @@ article div section {
 
 /* use the grid-row and grid-column values to place the boxes precisely onto the grid */
 #box1 {
-    grid-row:
-    grid-column:
+    grid-row: 1/16;
+    grid-column:1/16;
 }
 
 #box2 {
-    grid-row:
-    grid-column:
+    grid-row: 8/24;
+    grid-column: 8/24;
 }
 
 #box3 {
-    grid-row:
-    grid-column:
+    grid-row: 16/32;
+    grid-column: 16/32;
 }
 
 #box4 {
-    grid-row:
-    grid-column:
+    grid-row: 24/40;
+    grid-column: 24/40;
 }
 
 #box5 {
-    grid-row:
-    grid-column:
+    grid-row: 1/8;
+    grid-column: 32/16;
     background-color: rgba(200,10,10,0.3)
 }
 

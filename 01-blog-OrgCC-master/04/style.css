@@ -15,7 +15,7 @@ main {
                          "s art a";
     grid-template-columns: (10fr 40fr 10fr);
     grid-template-rows: (10fr 20fr 20fr);
-    grid-gap:10px
+    grid-gap:10px;
 }
 
 

@@ -43,7 +43,7 @@ section.sidebar {
 }
 
 section.sidebar img {
-    max-width: 80%; /* you'll see why this is useful soon, I promise!*/
+    max-width: 30%; /* you'll see why this is useful soon, I promise!*/
     border: 1px solid black;
     border-radius: 5px;
 }

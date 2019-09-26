@@ -30,6 +30,7 @@ div.main {
 div.main>#bp {
     grid-column:(0/2) ;
     grid-row: (1/2);
+    background:rgb(255, 113, 113);
 }
 section.sources { border: rgb(255, 255, 255) 1px solid;
     border-radius: 10px;

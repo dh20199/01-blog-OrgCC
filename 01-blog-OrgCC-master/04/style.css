@@ -13,7 +13,7 @@ main {
                          "n n n"
                          "s art a"
                          "s art a";
-    grid-template-columns: (10fr 10fr 10fr);
+    grid-template-columns: (10fr 40fr 10fr);
     grid-template-rows: (10fr 20fr 20fr);
     grid-gap: 10px
 }
@@ -37,7 +37,7 @@ section.sidebar {
     background-color: rgba(150, 112, 36, 0.3);
     grid-area: s;
     display: flex; 
-    flex-direction: column;
+    flex-direction: row-reverse;
     justify-content:start;          /*these last two are optional*/
     align-items: left;
 }

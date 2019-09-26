@@ -10,9 +10,9 @@ main {
     min-height: 100vh;
     display: grid;
     grid-template-areas: 
-                         "nav nav nav"
-                         "side art aside"
-                         "side art aside";
+                         "n n n"
+                         "s art a"
+                         "s art a";
     grid-template-columns: (10fr 40fr 10fr);
     grid-template-rows: (10fr 20fr 20fr);
     grid-gap: 10px
@@ -29,13 +29,13 @@ main>* {
 
 aside {
     background-color: rgba(143, 81, 188, 0.3);
-    grid-area: aside;
+    grid-area: a;
 }
 
 
 section.sidebar {
     background-color: rgba(150, 112, 36, 0.3);
-    grid-area: side;
+    grid-area: s;
     display: flex; 
     flex-direction: column;
     justify-content:start;          /*these last two are optional*/
@@ -51,7 +51,7 @@ section.sidebar img {
 nav {
     background-color: rgba(30,200,30,0.3);
     float: 
-    grid-area: nav;
+    grid-area: n;
 
 
 }

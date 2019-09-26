@@ -25,7 +25,9 @@ header {
     display: flow-root;
 }
 
-article {
+article { margin-top: 10px;
+    margin-bottom: 10px;
+    display: flow-root;
 }
 
 article img { max-width: 15rem;

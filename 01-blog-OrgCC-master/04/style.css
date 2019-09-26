@@ -13,7 +13,7 @@ main {
                          "nav nav nav"
                          "side art aside"
                          "side art aside";
-    grid-template-columns: (40fr 10fr 10fr);
+    grid-template-columns: (10fr 40fr 10fr);
     grid-template-rows: (10fr 20fr 20fr);
     grid-gap: 10px
 }
@@ -114,7 +114,7 @@ article div section {
                              "art"
                              "side"
                              "aside";
-        grid-template-columns: 10fr 40fr 10fr; /* this is the default value, but it we need to reset the value we set at line 15 */
+        grid-template-columns: 1fr; /* this is the default value, but it we need to reset the value we set at line 15 */
         grid-template-rows: 80px 1fr 120px 80px;
     }
     section.sidebar {

@@ -9,10 +9,9 @@ article {
     grid-template-areas: "a a c"
                          "a a c"
                           ; 
-    grid-template-columns: (repeat 3, 1fr);
+    grid-template-columns: (40px 50px auto 50px 40px);
     grid-template-rows: (1fr, 1fr);
-    grid-gap: 15px;
-    max-height: 2fr
+    max-height: 2fr;
 }
 Body{
 grid-area: a;

@@ -1,20 +1,28 @@
 article {
-    background:red;
+    background:rgb(255, 113, 113);
     display: grid;
-    grid-template-areas: "a a a"
-                          "d d d"
-                          "b b b"
-                          "c c c"; 
+    grid-template-areas: "a b c"
+                         "a d c"
+                          ; 
     grid-template-columns: (repeat 3, 1fr);
     grid-template-rows: (1fr, 1fr, 3fr, 3fr);
     grid-gap: 10px;
 }
 
 header {
-    background-color: rgba(255, 255, 255, 0.438)
+    background-color: rgb(248, 242, 242)
  }
-author {}
-main {}
+author {
+grid-area: a;
+}
+main {
+    grid-area: b;
+}
 
-#bp {}
-
+#bp {
+    grid-area: d;
+}
+sources {border: rgb(255, 255, 255) 1px solid;
+    border-radius: 10px;
+    grid-area: c;
+}

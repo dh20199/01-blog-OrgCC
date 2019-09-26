@@ -37,7 +37,7 @@ section.sidebar {
     background-color: rgba(150, 112, 36, 0.3);
     grid-area: s;
     display: flex; 
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
     justify-content:start;          /*these last two are optional*/
     align-items: left;
 }

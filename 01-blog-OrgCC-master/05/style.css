@@ -10,7 +10,7 @@ article {
                          "d b c"
                           ; 
     grid-template-columns: (repeat (3) 1fr);
-    grid-template-rows: (1fr, 1fr);
+    grid-template-rows: (repeat (2) 1fr);
 
 }
 

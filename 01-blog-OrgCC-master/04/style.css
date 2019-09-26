@@ -13,7 +13,7 @@ main {
                          "n n n"
                          "s art a"
                          "s art a";
-    grid-template-columns: (10fr 40fr 10fr);
+    grid-template-columns: (10fr 10fr 10fr);
     grid-template-rows: (10fr 20fr 20fr);
     grid-gap: 10px
 }
@@ -43,7 +43,7 @@ section.sidebar {
 }
 
 section.sidebar img {
-    max-width: 30%; /* you'll see why this is useful soon, I promise!*/
+    max-width: 80%; /* you'll see why this is useful soon, I promise!*/
     border: 1px solid black;
     border-radius: 5px;
 }

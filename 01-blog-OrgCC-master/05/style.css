@@ -22,17 +22,17 @@ header {
     text-align: left;
  }
 
-div.main {
+main {
     grid-column:(1/2) ;
     grid-row: (0/2);
 }
 
-div.main>#bp {
+main>#bp {
     grid-column:(1/2) ;
     grid-row: (0/2);
     background:rgb(255, 113, 113);
 }
-div.main>#img {
+main.img {
     float: left;
 }
 section.sources { border: rgb(255, 255, 255) 1px solid;
@@ -40,3 +40,4 @@ section.sources { border: rgb(255, 255, 255) 1px solid;
     grid-column:(2/3) ;
     grid-row: (0/2);
 }
+

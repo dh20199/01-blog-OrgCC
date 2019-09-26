@@ -13,7 +13,7 @@ main {
                          "side art aside"
                          "side art aside";
     grid-template-columns: "10fr 40fr 10fr";
-    grid-template-rows: "10fr 20fr 20fr";
+    grid-template-rows: "10fr 40fr";
     grid-gap: 
 }
 
@@ -36,7 +36,7 @@ section.sidebar {
     background-color: rgba(150, 112, 36, 0.3);
     grid-area:"side"
     display: flex; 
-    flex-direction:
+    flex-direction: :horizontal
     justify-content:            /*these last two are optional*/
     align-items:
 }
@@ -113,7 +113,7 @@ article div section {
                              "art"
                              "side"
                              "aside";
-        grid-template-columns: 1fr; /* this is the default value, but it we need to reset the value we set at line 15 */
+        grid-template-columns: 10fr 40fr 10fr; /* this is the default value, but it we need to reset the value we set at line 15 */
         grid-template-rows: 80px 1fr 120px 80px;
     }
     section.sidebar {

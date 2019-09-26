@@ -15,7 +15,7 @@ main {
                          "s art a";
     grid-template-columns: (10fr 40fr 10fr);
     grid-template-rows: (10fr 20fr 20fr);
-    grid-gap:
+    grid-gap:10px
 }
 
 
@@ -50,8 +50,8 @@ section.sidebar img {
 
 nav {
     background-color: rgba(30,200,30,0.3);
-    float: 
-    grid-area: n;
+    float:none;
+    grid-area:n;
 
 
 }

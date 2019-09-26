@@ -15,7 +15,7 @@ main {
                          "side art aside";
     grid-template-columns: (10fr 40fr 10fr);
     grid-template-rows: (10fr 20fr 20fr);
-    grid-gap: 
+    grid-gap: 10px
 }
 
 
@@ -38,8 +38,8 @@ section.sidebar {
     grid-area: side;
     display: flex; 
     flex-direction: column;
-    justify-content:            /*these last two are optional*/
-    align-items:
+    justify-content:start;          /*these last two are optional*/
+    align-items: left;
 }
 
 section.sidebar img {
